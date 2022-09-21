@@ -14,6 +14,8 @@
 		8C639F7628DAF62B0026BBDB /* HackwichThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C639F7528DAF62B0026BBDB /* HackwichThreeTests.swift */; };
 		8C639F8028DAF62B0026BBDB /* HackwichThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C639F7F28DAF62B0026BBDB /* HackwichThreeUITests.swift */; };
 		8C639F8228DAF62B0026BBDB /* HackwichThreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C639F8128DAF62B0026BBDB /* HackwichThreeUITestsLaunchTests.swift */; };
+		8C639F8F28DAF7B70026BBDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C639F8E28DAF7B70026BBDB /* ViewController.swift */; };
+		8C639F9128DAF7E70026BBDB /* HackwichThreeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C639F9028DAF7E70026BBDB /* HackwichThreeStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8C639F7B28DAF62B0026BBDB /* HackwichThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C639F7F28DAF62B0026BBDB /* HackwichThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichThreeUITests.swift; sourceTree = "<group>"; };
 		8C639F8128DAF62B0026BBDB /* HackwichThreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichThreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C639F8E28DAF7B70026BBDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C639F9028DAF7E70026BBDB /* HackwichThreeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HackwichThreeStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				8C639F6428DAF62A0026BBDB /* HackwichThreeApp.swift */,
 				8C639F6628DAF62A0026BBDB /* ContentView.swift */,
+				8C639F8E28DAF7B70026BBDB /* ViewController.swift */,
+				8C639F9028DAF7E70026BBDB /* HackwichThreeStoryboard.storyboard */,
 				8C639F6828DAF62B0026BBDB /* Assets.xcassets */,
 				8C639F6A28DAF62B0026BBDB /* Preview Content */,
 			);
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C639F6C28DAF62B0026BBDB /* Preview Assets.xcassets in Resources */,
+				8C639F9128DAF7E70026BBDB /* HackwichThreeStoryboard.storyboard in Resources */,
 				8C639F6928DAF62B0026BBDB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C639F8F28DAF7B70026BBDB /* ViewController.swift in Sources */,
 				8C639F6728DAF62A0026BBDB /* ContentView.swift in Sources */,
 				8C639F6528DAF62A0026BBDB /* HackwichThreeApp.swift in Sources */,
 			);
